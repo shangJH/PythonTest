@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaaff107-406c-43a7-9b03-6216e4beaba0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/CatEyeSpider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/identify/JDIdentify.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/identify/WeiboIdentify.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regex/regex1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="PythonTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,6 +44,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.07204611">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regex1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="regex1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regex/regex1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -128,6 +134,7 @@
         <option value="$PROJECT_DIR$/identify/JDIdentify.py" />
         <option value="$PROJECT_DIR$/identify/WeiboIdentify.py" />
         <option value="$PROJECT_DIR$/regex/regex1.py" />
+        <option value="$PROJECT_DIR$/config/README.md" />
       </list>
     </option>
   </component>
@@ -275,6 +282,9 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\学习实战\PythonCode\PythonTest\config" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\学习实战\PythonCode\PythonTest\normal" />
     </key>
@@ -414,6 +424,19 @@
       <option name="number" value="Default" />
       <updated>1525742245383</updated>
     </task>
+    <task id="LOCAL-00001" summary="# 更新结构">
+      <created>1525744674018</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525744674018</updated>
+    </task>
+    <task id="LOCAL-00002" summary="# 更新结构">
+      <created>1525744705943</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525744705943</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -422,6 +445,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5961123" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -450,6 +474,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="# 更新结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 更新结构" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -459,14 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/CatEyeSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -507,6 +527,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/CatEyeSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07204611">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding />
         </state>
       </provider>
