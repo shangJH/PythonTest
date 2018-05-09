@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaaff107-406c-43a7-9b03-6216e4beaba0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/doc/protfolio.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/doc/test2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/doc/FileIndex.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/doc/test3.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/book1/chap1.py" afterPath="$PROJECT_DIR$/base/book1/chap1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/doc/test1.txt" afterPath="$PROJECT_DIR$/resources/doc/test1.txt" />
     </list>
     <ignored path="PythonTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,26 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MysqlTool.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/MysqlTool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MongoTool.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/MongoTool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RedisTool.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/RedisTool.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,8 +40,20 @@
       <file leaf-file-name="chap1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/base/book1/chap1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61139894">
-              <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5294118">
+              <caret line="345" column="8" selection-start-line="345" selection-start-column="8" selection-end-line="345" selection-end-column="8" />
+              <folding>
+                <element signature="e#48#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileIndex.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/doc/FileIndex.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4456" column="104" selection-start-line="4456" selection-start-column="99" selection-end-line="4456" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -100,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/resources/doc/test1.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -111,6 +104,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test3.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/doc/test3.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -167,10 +170,11 @@
         <option value="$PROJECT_DIR$/base/book1/pyth1.py" />
         <option value="$PROJECT_DIR$/base/book1/README.md" />
         <option value="$PROJECT_DIR$/resources/doc/test.txt" />
-        <option value="$PROJECT_DIR$/resources/doc/test1.txt" />
         <option value="$PROJECT_DIR$/resources/doc/out.txt" />
         <option value="$PROJECT_DIR$/resources/doc/test2.txt" />
         <option value="$PROJECT_DIR$/resources/doc/protfolio.csv" />
+        <option value="$PROJECT_DIR$/resources/doc/test1.txt" />
+        <option value="$PROJECT_DIR$/resources/doc/test3.txt" />
         <option value="$PROJECT_DIR$/base/book1/chap1.py" />
       </list>
     </option>
@@ -558,7 +562,19 @@
       <option name="project" value="LOCAL" />
       <updated>1525855330192</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="# add chap1.py&#10;">
+      <created>1525864340561</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1525864340561</updated>
+    </task>
+    <task id="LOCAL-00013" summary="# add chap1.py&#10;">
+      <created>1525867069456</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1525867069456</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -571,7 +587,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2699784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34557235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4838013" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -818,26 +834,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/base/book1/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/doc/FileIndex.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4456" column="104" selection-start-line="4456" selection-start-column="99" selection-end-line="4456" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/doc/out.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/doc/test2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/doc/test1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -850,19 +866,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/book1/README.md">
+    <entry file="file://$PROJECT_DIR$/resources/doc/test1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/doc/test2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/doc/test3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base/book1/chap1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61139894">
-          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.5294118">
+          <caret line="345" column="8" selection-start-line="345" selection-start-column="8" selection-end-line="345" selection-end-column="8" />
+          <folding>
+            <element signature="e#48#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

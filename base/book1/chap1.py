@@ -4,6 +4,7 @@
 
 # print函数
 import sys
+import time as tm
 
 print("Hello, world")
 
@@ -273,12 +274,95 @@ foo()
 
 
 # 生成器
+'''
+   使用yield语句，可以让函数生成一个结果序列，而不仅仅是一个值
+'''
+def countdown(n):
+    print("Counting down!")
+    while n > 0:
+        yield n
+        n -= 1
 
+a = countdown(5)       # 会打印Counting down!语句
+print(a.__next__())    # 此时调用__next__()函数，输出为5
+print(a.__next__())    # 此时调用__next__()函数，输出为4
+print(a.__next__())    # 此时调用__next__()函数，输出为3，依次类推，知道最后无输出为止
+print(a.__next__())    # 2
+print(a.__next__())    # 1
+# print(a.__next__())  # 继续会报错
+
+for i in countdown(5):   # 这是yield通常的使用方式
+    print(i)
+
+# 实现tail -f功能
+def tail(f):
+    f.seek(0, 2)  # 移动到EOF
+    while True:
+        line = f.readline()
+        if not line:
+            tm.sleep(0.1)
+            continue
+        yield line
+
+def grep(lines, searchtext):
+    for line in lines:
+        if searchtext in line: yield line
+
+f = open("../../resources/doc/test3.txt", encoding="utf-8")
+# 监控文件输出
+# wwwlog = tail(f)         # 监控更新部分
+# pylines = grep(wwwlog, "shencong")   # 在更新部分搜索包含shencong的行，存在即打印
+# for line in pylines:
+#     print(line)
 
 # 协程
+'''
+   通常，函数运行时要使用单一的一组输入参数。但是函数也可以编写成一个任务程序，用来处理发送给它的一系列输入。
+   这类函数被称为协程，它同城将yield语句作为表达式(yield)的形式创建的
+'''
+def print_matches(matchtext):
+    print("Looking for %s" % matchtext)
+    while True:
+        line = (yield)
+        if matchtext in line:
+            print(line)
 
+# 使用上述函数，首先调用它，向前执行到第一条(yield)语句，然后使用send()给他发送数据
+matcher = print_matches("python")
+matcher.__next__()    # 向前执行到第一条(yield)语句
+matcher.send("hello world")
+matcher.send("sss python is cool")  # 这条发送时，会被匹配到并打印出来
+matcher.send("cow")
+matcher.close()
 
+# 一组匹配协程器
+matchers = [
+    print_matches("python"),
+    print_matches("guido"),
+    print_matches("jython")
+]
 
+# for m in matchers: m.__next__()    # 向前执行到第一条(yield)语句
+# 假设有一个活跃的日志文件传给所有匹配器
+# wwwlog = tail(open("access-log"))
+# for line in wwwlog:
+#     for m in matchers:
+#         m.send(line)    # 将数据发送到每个匹配器协程中
+
+# 对象与类
+
+# 异常
+# try:
+#     f = open("file.log")
+# except IOError as e:
+#     print(e)
+
+# 手工抛出异常
+# raise RuntimeError('Computer says no')
+
+# 模块
+
+# 帮助
 
 
 
