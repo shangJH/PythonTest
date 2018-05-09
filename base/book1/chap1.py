@@ -179,6 +179,103 @@ for name, shares, price in  protfolio:
 print("total: %.4f" % total)
 
 # 集合
+s = set([3, 5, 7, 9])
+t = set("Hello")
+print(t)   # 注意，结果中只出现了一个l字符，集合中的元素是不允许重复的
+print( t | s)   # t和s的并集
+print( t & s)   # t和s的交集
+print( t - s)   # t和s的查集
+print( t ^ s)   # 对称差集，元素在t或s中，但不会同时出现在二者中
+
+# 集合使用add()函数添加新项，使用update()函数添加多项
+t.add('x')
+s.update([10, 20, 30])
+print(t)
+print(s)
+
+
+# 字典
+stock = {
+    "name": "GOOG",
+    "shares": 100,
+    "price": 490.10
+}
+print(stock['name'])
+# 修改字典
+stock['shares'] = 75
+stock['date'] = 'June 7, 2007'
+print(stock)
+
+# 创建空字典
+prices = {}
+prices = dict()
+
+# 使用in运算符可以检验某个内容项是不是字典成员
+if "date" in stock:
+    time = stock['date']
+else:
+    time = ""
+print("time = %s" % time)
+
+# 上述更简洁的写法
+time = stock.get("date", "default")
+print("time = %s" % time)
+
+# 要获得一个关键字的列表，将字典转换成列表即可
+syms = list(stock)
+print(syms)
+
+# 循环迭代，range(i, j, [,步长])函数
+for i in range(10):
+    print(i)
+
+a = "Hello World"
+for c in a:
+    print(c)   # 打印a字符串的每个字符
+
+b = ["Dave", "Mark", "Ann", "Phil"]
+for name in b:
+    print(name)
+
+c = {
+    "GOOG": 490.10,
+    "IBM":91.50,
+    "AAPL":123.15
+}
+for key in c:
+    print(key) # 这个和javascript的for..in语句一致
+
+# 函数
+'''
+   使用def语句创建函数
+      def divide(a,b):
+          q = a // b
+          r = a - q * b
+          return (q, r)
+
+      调用时:
+      quotient, remainder = divide(146, 33)
+
+      定义函数时，还可以提供默认值
+      def connect(hostname, port, timeout=300)
+
+      调用时，可以指定参数
+      connect(port=80, hostname="www.python.org")
+'''
+
+count = 1
+def foo():
+    global count    # 如果不使用global声明，那么count为函数局部变量，否则使用的是全局变量
+    count += 1
+    print(count)
+
+foo()
+
+
+# 生成器
+
+
+# 协程
 
 
 
