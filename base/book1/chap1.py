@@ -104,8 +104,45 @@ print("str(%s) = %s" % (x, str(x)))
 print("repr(%s) = %s" % (x, repr(x)))
 print("format(%s) = %s" % (x, format(x, "0.5f")))  # format()函数具有格式化功能
 
-
 # 列表
+names = ["Dave", "Mark", "Ann", "Phil"]
+a = names[2]
+names[0] = "Jeff"
+print("names[2] = %s,names = %s" % (a, names))
+
+# 列表操作的两个函数 append()和insert(),append()函数追加到列表尾部，insert()函数可以指定插入的位置
+names.append("Paula")
+print("append:%s" % names)
+names.insert(2, "Tomas")
+print("append:%s" % names)
+
+# 操作子列表
+print("names[0:2]:%s" % names[0:2])
+print("names[2:]:%s" % names[2:])
+
+# 使用+号可以连接列表
+a = [1,2,3] + [4,5]
+print("a = %s" % a)
+
+# 创建空列表
+names = []
+names = list()
+
+# 列表里面可以是任意的Python对象，包括其他列表在内，嵌套列表需要使用多次索引方可访问到
+a = [1, "Dave", 3.14, ["Mark", 7, 9, [100, 101]], 10]
+print("a[1] = %s, a[3][2] = %s, a[3][3][1] = %s" % (a[1], a[3][2], a[3][3][1]))
+
+# 列表的高级特性
+f = open("../../resources/doc/test2.txt", "r", encoding="utf-8")
+lines = f.readlines()
+f.close()
+
+# fvalues = [float(line) for line in lines]   # 这种写法比较简洁
+fvalues = [float(line) for line in open("../../resources/doc/test2.txt", "r", encoding="utf-8")]
+print("The minimum is %.2f" % min(fvalues))
+print("The maximum is %.2f" % max(fvalues))
+
+
 
 
 
