@@ -142,6 +142,45 @@ fvalues = [float(line) for line in open("../../resources/doc/test2.txt", "r", en
 print("The minimum is %.2f" % min(fvalues))
 print("The maximum is %.2f" % max(fvalues))
 
+# 元组
+stock = ('GOOG', 100, 490.10)
+address = ('www.python.org', 80)
+person = "shen", "cong", "18054293766"  # 没有圆括号，python也能自动识别为元组
+print("person type: %s" % type(person))
+
+# 定义0个和1个原始的元组
+a = ()
+b = ("test",)   # 如果没有逗号区别，会被认为是str
+c = ("test")
+print(type(b), type(c))
+
+name, shares, price = stock     # 通过这样的方式提取元组中的值
+
+# 元组创建后不能修改它的内容
+filename = "../../resources/doc/protfolio.csv"
+protfolio = []
+for line in open(filename):
+    fields = line.split(",")
+    name = fields[0]
+    shares = int(fields[1])
+    price = float(fields[2])
+    stock = (name, shares, price)
+    protfolio.append(stock)
+
+print(protfolio[0])
+print(protfolio[1])
+print(protfolio[1][1])
+print(protfolio[1][2])
+
+# 循环访问所有字段
+total = 0.0
+for name, shares, price in  protfolio:
+    total += shares * price
+print("total: %.4f" % total)
+
+# 集合
+
+
 
 
 
