@@ -81,6 +81,71 @@ fields = [ty(val) for ty, val in zip(field_types, raw_fields)]
 print(fields)
 
 # 数据的内置类型
+'''
+   None
+   数字
+           int
+           long
+           float
+           complex
+           bool
+   序列
+           str
+           list           列表
+           tuple          元组
+           range
+
+   映射    dict           字典
+   集合    set            可变集合
+           frozenset      不可变集合
+
+   s[i]
+   s[i:j]
+   s[i:j:stride]
+   len(s)
+   min(s)
+   max(s)
+   sum(s [, initial])
+   all(s)      检查s中的所有项是否为True
+   any(s)      检查s中的任意项是否为True
+
+   s[i]=v
+   s[i:j]=t
+   s[i:j:stride] = t
+   del s[i]
+   del s[i:j]
+   del s[i:j:stride]
+
+   列表
+   list(s)
+   s.append(x)      将一个新元素追加到s末尾
+   s.extend(t)      将一个新列表追加到s的末尾
+   s.count(x)       计算s中x的出现次数
+   s.index(x, [, start [, stop]])
+   s.insert(i, x)
+   s.pop([i])       返回元素i并从列表中移除它。如果省略参数，返回列表中最后一个元素
+   s.remove(x)      搜索x并移除它
+   s.reverse()
+   s.sort([key [, reverse]])
+
+   字符串操作方法
+
+   映射类型
+
+
+'''
+
+# 可调用类型
+def foo(x, y):
+    return x + y
+
+# 使用lambda运算符
+bar = lambda x, y: x + y
+
+
+#
+
+
 
 
 
