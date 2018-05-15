@@ -34,7 +34,7 @@ print(returns)
 # 将日期字符串转换成数字，星期一:0，剩下以此类推
 def datestr2num(s):
     # s这里可能是bytes类型，需要转成字符串形式
-    return datetime.datetime.strptime(s.decode(), "%d-%M-%Y").date().weekday()
+    return datetime.datetime.strptime(s.decode(), "%d-%m-%Y").date().weekday()
 
 dates, close = np.loadtxt('../../resources/csv/data.csv', delimiter=',', usecols=(1, 6), converters={1:datestr2num}, unpack=True)
 print("Date = ", dates)
@@ -55,5 +55,35 @@ print(np.argmax(averages))  # argmax返回的是最大元素的索引值
 print(np.argmin(averages))  # argmin返回的是最小元素的索引值
 
 
+# 周汇总
 # apply_along_axis函数，这个函数会调用另一个由我们给出的函数，作用与每一个数组元素上
-# np.apply_along_axis()
+dates, open, high, low, close = np.loadtxt('../../resources/csv/data.csv', delimiter=',', usecols=(1, 3, 4, 5, 6), converters={1:datestr2num}, unpack=True)
+close = close[:16]
+dates = dates[:16]   # 取前3周数据
+
+first_monday = np.ravel(np.where(dates == 0))[0]
+print("The first monday index is %s" % first_monday)
+last_monday = np.ravel(np.where(dates == 4))[-1]
+print("The last monday index is %s" % last_monday)
+
+week_indices = np.array(np.arange(first_monday, last_monday + 1))
+week_indices = np.split(week_indices, 3)  # 分成3份
+print(week_indices)
+
+def summarize(a, o, h, l, c):
+    monday_open = o[a[0]]
+    week_high = np.max(np.take(h, a))
+    week_low = np.min(np.take(l, a))
+    friday_close = c[a[-1]]
+    return("APPL", monday_open, week_high, week_low, friday_close)
+
+weeksummary = np.apply_along_axis(summarize, 1, week_indices, open, high, low, close)
+print(weeksummary)
+np.savetxt('../../resources/csv/weeksummary.csv', weeksummary, delimiter=',', fmt="%s")
+
+# 真实波动幅度均值
+
+
+
+
+
