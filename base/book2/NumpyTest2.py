@@ -1,8 +1,12 @@
 '''
    chap03 常用函数
 '''
+import sys
 import datetime
 import numpy as np
+from matplotlib.pyplot import plot
+from matplotlib.pyplot import show
+
 
 i2 = np.eye(2)
 print(i2)
@@ -82,6 +86,71 @@ print(weeksummary)
 np.savetxt('../../resources/csv/weeksummary.csv', weeksummary, delimiter=',', fmt="%s")
 
 # 真实波动幅度均值
+h, l, c = np.loadtxt('../../resources/csv/data.csv', delimiter=',', usecols=(4, 5, 6), unpack=True)
+N = 10
+h = h[-N:]   # 取最后10天交易数据
+l = l[-N:]
+previousclose = c[-N -1:-1]   # 相对应上面的交易日数据的前一天交易数据
+truerange = np.maximum(h - l, h - previousclose, previousclose - l)
+print("True range ", truerange)
+
+atr = np.zeros(N)
+atr[0] = np.mean(truerange)   # 计算平均波动情况
+for i in range(1, N):
+    atr[i] = (N - 1) * atr[i - 1] + truerange[i]
+    atr[i] /= N
+print("ATR ", atr)
+
+
+# 简单移动平均线   convolve函数
+N = 5
+weights = np.ones(N) / N
+sma = np.convolve(weights, c)[N-1:-N+1]
+t = np.arange(N - 1, len(c))
+# plot(t, c[N - 1:], lw=1.0)
+# plot(t, sma, lw=2.0)
+# show()
+
+# 指数移动平均线
+x = np.arange(5)
+print("Exp ", np.exp(x))
+print("Linspace", np.linspace(-1, 0, 5))  # -1到0之间，分成5等份
+
+weights /= weights.sum()
+print("Weights", weights)
+ema = np.convolve(weights, c)[N-1:-N+1]
+t = np.arange(N - 1, len(c))
+# plot(t, c[N-1:], lw=1.0)
+# plot(t, ema, lw=2.0)
+# show()
+
+
+# 布林带
+
+# 线性模型
+N = 10
+b = c[-N:]
+b = b[::-1]   # 反序
+print("b", b)
+
+A = np.zeros((N, N), float)
+# print("Zeros N by N", A)
+for i in range(N):
+    A[i, ] = c[-N - 1 - i: -1 - i]
+
+(x, residuals, rank, s) = np.linalg.lstsq(A, b)   # 线性估计模型
+print(x, residuals, rank, s)
+
+print(np.dot(b, x))
+
+
+
+
+
+
+
+
+
 
 
 
