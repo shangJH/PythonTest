@@ -132,3 +132,5 @@ print(np.bitwise_and(x, np.left_shift(1, 2) - 1))
 
 
 
+
+
