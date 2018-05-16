@@ -117,9 +117,13 @@ print(a * b)
 x = np.arange(-9, 9)
 y = -x
 print((x ^ y) < 0)
-print(np.less(np.bitwise_xor(x, y), 0))
+print(np.less(np.bitwise_xor(x, y), 0))           # 判断符号
+print((x & (x - 1)) == 0)
+print(np.equal(np.bitwise_and(x, (x - 1)), 0))    # 检查是否为2的幂
+print(x & ((1 << 2) - 1))
+print(np.bitwise_and(x, np.left_shift(1, 2) - 1))
 
-#
+
 
 
 
