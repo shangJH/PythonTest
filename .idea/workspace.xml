@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaaff107-406c-43a7-9b03-6216e4beaba0" name="Default" comment="# add chap05.py for book2&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base/book2/NumPyTest6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base/book3/EsTest1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/csv/AAPL.csv" />
+    <list default="true" id="aaaff107-406c-43a7-9b03-6216e4beaba0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base/book2/NumPyTest7.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/doc/eye.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PythonTest.iws" />
@@ -26,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NumPyTest3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/book2/NumPyTest3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NumPyTest4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/book2/NumPyTest4.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,13 +49,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumPyTest6.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumPyTest6.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/book2/NumPyTest6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35064936">
-              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
               <folding>
                 <element signature="e#22#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumPyTest7.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base/book2/NumPyTest7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5515695">
+              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+              <folding>
+                <element signature="e#49#67#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,14 +182,15 @@
         <option value="$PROJECT_DIR$/base/book2/NumPyTest5.py" />
         <option value="$PROJECT_DIR$/base/book3/EsTest1.py" />
         <option value="$PROJECT_DIR$/base/book2/NumPyTest6.py" />
+        <option value="$PROJECT_DIR$/base/book2/NumPyTest7.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-61" />
-    <option name="y" value="11" />
-    <option name="width" value="1932" />
-    <option name="height" value="1055" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -231,6 +233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -371,8 +375,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -412,41 +414,7 @@
       <recent name="F:\CodeTraining\PythonCode\PythonTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.NumPyTest6">
-    <configuration default="false" name="NumPyTest2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base/book2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonTest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/book2/NumPyTest2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="NumPyTest3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base/book2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonTest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/book2/NumPyTest3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in NumPyTest7">
     <configuration default="false" name="NumPyTest4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -496,6 +464,45 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/book2/NumPyTest6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumPyTest7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base/book2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonTest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/book2/NumPyTest7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in NumPyTest7" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base/book2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonTest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/book2/NumPyTest7.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -621,19 +628,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.NumPyTest2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.NumPyTest3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.NumPyTest4" />
-      <item index="3" class="java.lang.String" itemvalue="Python.NumPyTest5" />
-      <item index="4" class="java.lang.String" itemvalue="Python.NumPyTest6" />
+      <item index="0" class="java.lang.String" itemvalue="Python.NumPyTest4" />
+      <item index="1" class="java.lang.String" itemvalue="Python.NumPyTest5" />
+      <item index="2" class="java.lang.String" itemvalue="Python.NumPyTest6" />
+      <item index="3" class="java.lang.String" itemvalue="Python.NumPyTest7" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in NumPyTest7" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.NumPyTest6" />
-        <item index="1" class="java.lang.String" itemvalue="Python.NumPyTest5" />
-        <item index="2" class="java.lang.String" itemvalue="Python.NumPyTest4" />
-        <item index="3" class="java.lang.String" itemvalue="Python.NumPyTest3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.NumPyTest2" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in NumPyTest7" />
+        <item index="1" class="java.lang.String" itemvalue="Python.NumPyTest7" />
+        <item index="2" class="java.lang.String" itemvalue="Python.NumPyTest6" />
+        <item index="3" class="java.lang.String" itemvalue="Python.NumPyTest5" />
+        <item index="4" class="java.lang.String" itemvalue="Python.NumPyTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -792,8 +799,40 @@
       <option name="project" value="LOCAL" />
       <updated>1526455823087</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="# add chap07.py for book2&#10;">
+      <created>1526611113953</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1526611113953</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_NumPyTest7 - 2018.05.21 at 14h 39m 06s.xml">
+      <configuration name="Unittests in NumPyTest7" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumPyTest7 - 2018.05.21 at 14h 39m 36s.xml">
+      <configuration name="Unittests in NumPyTest7" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumPyTest7 - 2018.05.21 at 14h 41m 20s.xml">
+      <configuration name="Unittests in NumPyTest7" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumPyTest7 - 2018.05.21 at 14h 41m 55s.xml">
+      <configuration name="Unittests in NumPyTest7" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumPyTest7 - 2018.05.21 at 14h 42m 06s.xml">
+      <configuration name="Unittests in NumPyTest7" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumPyTest7 - 2018.05.21 at 14h 42m 25s.xml">
+      <configuration name="Unittests in NumPyTest7" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumPyTest7 - 2018.05.21 at 14h 42m 44s.xml">
+      <configuration name="Unittests in NumPyTest7" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumPyTest7 - 2018.05.21 at 14h 43m 13s.xml">
+      <configuration name="Unittests in NumPyTest7" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,18 +844,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-61" y="11" width="1932" height="1055" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14248021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1421801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42286947" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5555556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4227027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48920086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5183585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -825,6 +863,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -846,7 +885,8 @@
     <MESSAGE value="# add chap03.py&#10;" />
     <MESSAGE value="# add chap02.py for book2&#10;" />
     <MESSAGE value="# add chap05.py for book2&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="# add chap05.py for book2&#10;" />
+    <MESSAGE value="# add chap07.py for book2&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="# add chap07.py for book2&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -855,20 +895,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/regex/regex1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/identify/WeiboIdentify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regex/regex1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1093,9 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="185" column="17" selection-start-line="185" selection-start-column="10" selection-end-line="185" selection-end-column="17" />
-          <folding>
-            <element signature="e#27#45#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,9 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1217,7 +1237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5272727">
           <caret line="727" column="25" selection-start-line="727" selection-start-column="21" selection-end-line="727" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,10 +1250,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base/book2/NumPyTest6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35064936">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
           <folding>
             <element signature="e#22#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1726457">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/book2/NumPyTest7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5515695">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+          <folding>
+            <element signature="e#49#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
