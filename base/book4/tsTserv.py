@@ -23,7 +23,7 @@ while True:
         data = tcpCliSock.recv(BUFSIZ)
         if not data:
             break
-        print(type(data))
-        tcpCliSock.send(bytes('[%s] %s' % (ctime(), str(data, encoding='utf-8')), encoding='utf-8'))
+        # 这里send函数传输的是字节，需要进行转换
+        tcpCliSock.send(bytes('[%s] %s' % (ctime(), data), encoding='utf-8'))
     tcpCliSock.close()
 tcpSerSock.close()
