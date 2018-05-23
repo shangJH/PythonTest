@@ -3,6 +3,7 @@
 '''
 
 import _thread
+
 from time import sleep, ctime
 
 loops = [4, 2]
@@ -48,6 +49,10 @@ def main():
          while locks[i].locked(): pass
 
      print('all done at:', ctime())
+
+
+# 避免使用_thread模块的一个原因是该模块不支持守护线程这个概念，当主线程退出时，所有子线程都将终止。
+# 进行多线程编程应当使用更高级别的模块，比如threading模块
 
 if __name__ == '__main__':
     main()
